@@ -1,0 +1,10 @@
+C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\bin\Debug\CityClass.exe.config
+C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\bin\Debug\CityClass.exe
+C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\bin\Debug\CityClass.pdb
+C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\obj\Debug\CityClass.csprojAssemblyReference.cache
+C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\obj\Debug\CityClass.Form1.resources
+C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\obj\Debug\CityClass.Properties.Resources.resources
+C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\obj\Debug\CityClass.csproj.GenerateResource.cache
+C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\obj\Debug\CityClass.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\obj\Debug\CityClass.exe
+C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\obj\Debug\CityClass.pdb
