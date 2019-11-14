@@ -32,13 +32,18 @@ namespace CityClass
         public void CreateCity(string cName)
         {
             name = cName;
-            population = 2;
+            //population = 2;
             area = new Random().Next(1000, 1000000);
         }
 
         public void ChangeCityName(string cName)
         {
             name = cName;
+        }
+
+        public void inCreasePopulation(int incPop)
+        {
+            population += incPop;
         }
     }
 }

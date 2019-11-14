@@ -8,3 +8,12 @@ C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\obj\Debug\CityClass.csproj.G
 C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\obj\Debug\CityClass.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\obj\Debug\CityClass.exe
 C:\Users\Lenovo-PC\source\repos\CityClass\CityClass\obj\Debug\CityClass.pdb
+C:\Users\Muzamil-PC\Documents\Visual Studio 2015\Projects\CityClass\CityClass\bin\Debug\CityClass.exe.config
+C:\Users\Muzamil-PC\Documents\Visual Studio 2015\Projects\CityClass\CityClass\obj\Debug\CityClass.exe
+C:\Users\Muzamil-PC\Documents\Visual Studio 2015\Projects\CityClass\CityClass\obj\Debug\CityClass.pdb
+C:\Users\Muzamil-PC\Documents\Visual Studio 2015\Projects\CityClass\CityClass\bin\Debug\CityClass.exe
+C:\Users\Muzamil-PC\Documents\Visual Studio 2015\Projects\CityClass\CityClass\bin\Debug\CityClass.pdb
+C:\Users\Muzamil-PC\Documents\Visual Studio 2015\Projects\CityClass\CityClass\obj\Debug\CityClass.csprojResolveAssemblyReference.cache
+C:\Users\Muzamil-PC\Documents\Visual Studio 2015\Projects\CityClass\CityClass\obj\Debug\CityClass.Form1.resources
+C:\Users\Muzamil-PC\Documents\Visual Studio 2015\Projects\CityClass\CityClass\obj\Debug\CityClass.Properties.Resources.resources
+C:\Users\Muzamil-PC\Documents\Visual Studio 2015\Projects\CityClass\CityClass\obj\Debug\CityClass.csproj.GenerateResource.Cache

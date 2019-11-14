@@ -39,6 +39,7 @@
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.btnAddPerson = new System.Windows.Forms.Button();
+            this.lblCurrentCity = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtCityName
@@ -109,6 +110,7 @@
             this.listBoxPersons.Name = "listBoxPersons";
             this.listBoxPersons.Size = new System.Drawing.Size(121, 264);
             this.listBoxPersons.TabIndex = 7;
+            this.listBoxPersons.SelectedIndexChanged += new System.EventHandler(this.listBoxPersons_SelectedIndexChanged);
             // 
             // txtFirstName
             // 
@@ -134,11 +136,20 @@
             this.btnAddPerson.UseVisualStyleBackColor = true;
             this.btnAddPerson.Click += new System.EventHandler(this.BtnAddPerson_Click);
             // 
+            // lblCurrentCity
+            // 
+            this.lblCurrentCity.AutoSize = true;
+            this.lblCurrentCity.Location = new System.Drawing.Point(16, 335);
+            this.lblCurrentCity.Name = "lblCurrentCity";
+            this.lblCurrentCity.Size = new System.Drawing.Size(0, 13);
+            this.lblCurrentCity.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(899, 503);
+            this.Controls.Add(this.lblCurrentCity);
             this.Controls.Add(this.btnAddPerson);
             this.Controls.Add(this.txtLastName);
             this.Controls.Add(this.listBoxPersonDetails);
@@ -170,6 +181,7 @@
         private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.TextBox txtLastName;
         private System.Windows.Forms.Button btnAddPerson;
+        private System.Windows.Forms.Label lblCurrentCity;
     }
 }
 

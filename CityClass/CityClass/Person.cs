@@ -8,8 +8,12 @@ namespace CityClass
 {
     class Person
     {
+        private City currentlyincity;
 
-        City CurrentlyInCity;
+        public City CurrentlyInCity
+        {
+            get { return currentlyincity; }
+        }
 
         private string firstname;
         public string FirstName
@@ -29,11 +33,17 @@ namespace CityClass
             get { return age; }
         }
 
+        public string fullName
+        {
+            get { return (firstname + " " + lastname); }
+        }
+
         public void CreatePerson(string fName, string lName,City currentCity)
         {
             firstname = fName;
             lastname = lName;
-            CurrentlyInCity = currentCity;
+            age = new Random().Next(15, 40);
+            currentlyincity = currentCity;
         }
     }
 }

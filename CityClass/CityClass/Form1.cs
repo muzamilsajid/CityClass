@@ -18,6 +18,7 @@ namespace CityClass
         Person currentPerson;
         City city;
         Person person;
+        public bool personExists = false;
 
         public Form1()
         {
@@ -57,6 +58,8 @@ namespace CityClass
             {
                 listCityDetails.Items.Add($"{people.FirstName} {people.LastName}");
             }
+
+            lblCurrentCity.Text = $"Currently Selected City is {currentCity.Name.ToUpper()}";
         }
 
         private void BtnChangeCityName_Click(object sender, EventArgs e)
@@ -73,12 +76,51 @@ namespace CityClass
 
         private void BtnAddPerson_Click(object sender, EventArgs e)
         {
-            person = new Person();
-            
-            person.CreatePerson(txtFirstName.Text, txtLastName.Text, currentCity);
+            foreach (Person person in myListOfPeople)
+            {
+                if (person.fullName == txtFirstName.Text + " " + txtLastName.Text)
+                {
+                    personExists = true;
+                }
+            }
 
-            myListOfPeople.Add(person);
-            currentCity.ListOfPeople.Add(person);
+            if (personExists)
+            {
+                MessageBox.Show("Person Exists!");
+            }
+            else
+            {
+                person = new Person();
+                listBoxPersons.Items.Clear();
+
+                person.CreatePerson(txtFirstName.Text, txtLastName.Text, currentCity);
+
+                myListOfPeople.Add(person);
+                currentCity.ListOfPeople.Add(person);
+                currentCity.inCreasePopulation(1);
+
+                foreach (Person person in myListOfPeople)
+                {
+                    listBoxPersons.Items.Add(person.fullName);
+                }
+            }
+            personExists = false;
+        }
+
+        private void listBoxPersons_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            listBoxPersonDetails.Items.Clear();
+
+            foreach (Person person in myListOfPeople)
+            {
+                if (person.fullName == listBoxPersons.SelectedItem.ToString())
+                {
+                    currentPerson = person;
+                }
+            }
+
+            listBoxPersonDetails.Items.Add($"{currentPerson.fullName} | {currentPerson.Age} | {currentPerson.CurrentlyInCity.Name}");
         }
     }
 }
